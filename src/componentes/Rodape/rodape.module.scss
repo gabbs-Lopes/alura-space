@@ -1,0 +1,31 @@
+@import "../../styles/variaveis";
+
+.rodape {
+    background-color: $azul-rodape;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.redesSociais {
+    margin: 2vh;
+}
+
+.redesSociais img{
+    margin-right: 2em;
+}
+
+.rodape p {
+    color: white;
+
+    font-family: $fonte-normal;
+    font-size: 16px;
+    font-weight: 300;
+
+    letter-spacing: .4px;
+
+    margin-right: 1em;
+}
