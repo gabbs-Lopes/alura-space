@@ -29,7 +29,7 @@ export default function Rodape() {
           </a>
         </div>
 
-        <p>Desenvolvido por Gabriel Lopes.</p>
+        <p>Desenvolvido por Gabriel Lopes. masqueico</p>
     </div>
   )
 }
