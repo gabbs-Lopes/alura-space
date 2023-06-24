@@ -1,6 +1,6 @@
-import facebook from '../../assets/icones/facebook.svg'
-import instagram from '../../assets/icones/instagram.svg'
-import twitter from '../../assets/icones/twitter.svg'
+import facebook from './facebook.svg'
+import instagram from './instagram.svg'
+import twitter from './/twitter.svg'
 import styles from './rodape.module.scss'
 
 export default function Rodape() {
@@ -29,7 +29,7 @@ export default function Rodape() {
           </a>
         </div>
 
-        <p>Desenvolvido por Gabriel Lopes. masqueico</p>
+        <p>Desenvolvido por Gabriel Lopes.</p>
     </div>
   )
 }
