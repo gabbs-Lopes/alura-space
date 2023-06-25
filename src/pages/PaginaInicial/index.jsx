@@ -1,9 +1,11 @@
-import Cabecalho from "../../componentes/Cabecalho";
-import Menu from "../../componentes/Menu";
 import styles from './paginaInical.module.scss'
-import Banner from '../../componentes/Banner';
-import Rodape from "../../componentes/Rodape";
-import Galeria from "../../componentes/Galeria";
+
+import Cabecalho from "componentes/Cabecalho";
+import Menu from "componentes/Menu";
+import Banner from 'componentes/Banner';
+import Rodape from "componentes/Rodape";
+import Galeria from "componentes/Galeria";
+import Populares from "componentes/Populares";
 
 export default function PaginaInicial() {
     return (
@@ -14,11 +16,12 @@ export default function PaginaInicial() {
                     <Menu />
                     <Banner />
                 </section>
-            </main>
 
-            <div className={styles.galeria}>
-                <Galeria />
-            </div>
+                <section className={styles.galeria}>
+                    <Galeria />
+                    <Populares />
+                </section>
+            </main>
 
             <Rodape />
         </>

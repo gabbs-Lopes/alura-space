@@ -1,6 +1,7 @@
 @import "../../styles/variaveis";
 
 .galeria {
+  width: 78%;
   font-family: $fonte-normal;
   margin-bottom: 2rem;
 
@@ -15,11 +16,6 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-  }
-
-  &__cards > img {
-    width: 100px;
-    height: 100px;
   }
 
   &__card {
